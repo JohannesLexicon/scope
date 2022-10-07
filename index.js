@@ -1,4 +1,5 @@
 // Block Scope
+// Let och Const går inte att komma åt utanför Block Scope
 {
   function blockFunction() {
     console.log("rymmer");
@@ -20,6 +21,7 @@ blockVarFunction();
 // blockConstFunction();
 
 // Function Scope
+// Ingenting går att komma åt utanför Function Scope
 function functionScope() {
   function functionScopeFunction() {
     console.log("rymmer inte");
